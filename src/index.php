@@ -1,5 +1,8 @@
 <?php
 
+$redis = new Redis();
+var_dump($redis);
+
 //Общие настройки
     //Отображение ошибок
 ini_set('display_errors', 1);
